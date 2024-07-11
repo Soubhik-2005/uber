@@ -4,7 +4,6 @@
   padding: 0;
   font-family: "poppins";
   box-sizing: border-box;
-  
 }
 .first {
   background-color: black;
@@ -154,50 +153,46 @@ button .globe {
   padding: 14px 25px;
   cursor: pointer;
 }
-  .second{
-
-    width: 84vw;
-    height: 89vh;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4vh;
-    line-height:1.4;
-    margin-bottom: 22vh;
-    position: relative;
-    right: 1vw;
-   
+.second {
+  width: 84vw;
+  height: 89vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+  line-height: 1.4;
+  margin-bottom: 22vh;
+  position: relative;
+  right: 1vw;
 }
-.second .img_2 img{
+.second .img_2 img {
   width: 41vw;
   position: relative;
-    right: 5vw;
+  right: 5vw;
 }
-.para_2{
- font-size: 47px;
- font-weight: 600;
- width: 31vw;
+.para_2 {
+  font-size: 47px;
+  font-weight: 600;
+  width: 31vw;
 }
 
- .second .wrapper_2{
+.second .wrapper_2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   left: 3vw;
-
-
 }
-.make{
+.make {
   width: 32vw;
   font-size: 15px;
   margin-top: 6vh;
   position: relative;
   left: 1vw;
-} 
-.button_2 button{
+}
+.button_2 button {
   background-color: black;
   color: white;
   border: solid black;
@@ -205,16 +200,15 @@ button .globe {
   cursor: pointer;
   padding: 8px 18px;
   border-radius: 7px;
-  
 }
-.wrapper_3{
+.wrapper_3 {
   display: flex;
   gap: 2vw;
   margin-top: 6vh;
   position: relative;
   left: 1vw;
 }
- .already>button{
+.already > button {
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
@@ -226,55 +220,46 @@ button .globe {
   top: 10px;
   color: rgb(0, 0, 0);
   background-color: white;
-  font-weight: 400 ;
-} 
-
-
-
-
-.third{
-  
-    display: flex;
-    width: 82vw;
-    margin: auto;
-    justify-content: space-between;
-    margin-bottom: 22vh;
-    gap: 10vw;
-    
-    
-
+  font-weight: 400;
 }
-.para_3{
+
+.third {
+  display: flex;
+  width: 82vw;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 22vh;
+  gap: 10vw;
+}
+.para_3 {
   font-size: 47px;
   font-weight: 600;
   width: 32vw;
   color: #2e2d2ded;
- }
- .uber{
+}
+.uber {
   width: 34vw;
   font-size: 15px;
   margin-top: 6vh;
   position: relative;
   left: 1vw;
-} 
-.wrapper_4{
+}
+.wrapper_4 {
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-    right: 17px;
-  
+  right: 17px;
 }
-.wrapper_5{
+.wrapper_5 {
   display: flex;
   gap: 2vw;
   margin-top: 6vh;
   position: relative;
   right: 3vw;
-
 }
-.check button{
+.check button {
   border-top: 0px;
   border-right: 0px;
   border-left: 0px;
@@ -282,102 +267,93 @@ button .globe {
   border-color: #a0a0a088;
   font-size: 16px;
   width: 14vw;
-  
+
   top: 10px;
   color: rgb(0, 0, 0);
   background-color: white;
-  font-weight: 400 ;
+  font-weight: 400;
   position: relative;
   right: 8px;
 }
-.wrapper_3 .button_3{
+.wrapper_3 .button_3 {
   position: relative;
   right: 11vw;
 }
-.para_4{
+.para_4 {
   font-size: 31px;
   font-weight: 700;
   width: 33vw;
-  
+
   position: relative;
   left: 2vw;
 }
-.make_1{
+.make_1 {
   font-size: 15px;
   width: 33vw;
   position: relative;
   left: 2vw;
-  
 }
-.img_3{
+.img_3 {
   position: relative;
 }
-.end{
-  height:63vh;
+.end {
+  height: 63vh;
   width: 100%;
   background-color: rgba(223, 223, 223, 0.295);
 }
-.left{
- width: 50%;
- height:auto;
- background-color: white;
- margin-right: 2vw;
+.left {
+  width: 50%;
+  height: auto;
+  background-color: white;
+  margin-right: 2vw;
 }
-.right
-  {
-    width: 50%;
-    height:auto;
-    background-color: white;
-   }
-   .wrap{
-    display:flex;
-    margin: auto;
-    width: 85%;
-   }
-   .left>img{
-    padding: 22px;
-   }
-   .right>img{
-    padding: 22px;
-   }
-  .uber{
-    font-size: 24px;
-    font-weight: 500;
-    width: 32vw;
-    margin-top:6vh;
-    display: flex;
-    align-items: center
-   }
-  .scan{
-font-size: 15px;
-position:relative;
-right: 10vw;
+.right {
+  width: 50%;
+  height: auto;
+  background-color: white;
+}
+.wrap {
+  display: flex;
+  margin: auto;
+  width: 85%;
+}
+.left > img {
+  padding: 22px;
+}
+.right > img {
+  padding: 22px;
+}
+.uber {
+  font-size: 24px;
+  font-weight: 500;
+  width: 32vw;
+  margin-top: 6vh;
+  display: flex;
+  align-items: center;
+}
+.scan {
+  font-size: 15px;
+  position: relative;
+  right: 10vw;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: flex;
+}
+.wr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
-  .left{
-    display: flex;
-    
-  }
-  .right{
-    display: flex;
-  }
-  .wr{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
-  }
-  
-
-  .arrow>svg{
-    color: red;
-  }
-  .its>p{
-    padding: 52px 18px 44px 75px;
-    font-size: 35px;
-    font-weight: 600;
-  }
-  
-
-
-
+.arrow > svg {
+  color: red;
+}
+.its > p {
+  padding: 52px 18px 44px 75px;
+  font-size: 35px;
+  font-weight: 600;
+}
