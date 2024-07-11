@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+  box-sizing: border-box;
+  
+}
+.first {
+  background-color: black;
+  width: 100%;
+  height: 140vh;
+}
+.sec_1 {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+.sec_1 > .nav {
+  width: 83vw;
+  height: 47px;
+  /* background-color: red; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  bottom: 35px;
+  position: relative;
+  left: 34px;
+}
+.sec_1 > div {
+  color: white;
+  font-size: 24px;
+  /* background-color: aqua; */
+  width: 178px;
+  display: flex;
+  justify-content: center;
+  height: 52px;
+  align-items: center;
+  cursor: pointer;
+}
+.sec_1 .nav .nav_1 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+.sec_1 .nav .nav_2 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 26px;
+}
+.sec_1 .nav .nav_1 ul li .btn {
+  background-color: white;
+}
+button {
+  background-color: black;
+  color: white;
+  border: solid black;
+  font-size: 14px;
+}
+button .globe {
+  color: white;
+  position: relative;
+  right: 4px;
+  top: 3px;
+}
+.btn {
+  background-color: white;
+  color: black;
+  padding: 7px 15px;
+  border-radius: 29px;
+  position: relative;
+  bottom: 7px;
+  font-weight: 500;
+}
+
+.sec_2 .img_1 img {
+  width: 42vw;
+
+  height: 106vh;
+  position: relative;
+  top: 32px;
+}
+.sec_2 .para_1 .part_1 {
+  color: white;
+  font-weight: 600;
+  width: 553px;
+  font-size: 47px;
+}
+.sec_2 {
+  display: flex;
+  justify-content: space-between;
+  width: 84vw;
+  margin: auto;
+}
+
+.sec_2 .ride {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+.sec_2 .input_1 input {
+  height: 7vh;
+  width: 26vw;
+  padding-left: 3vw;
+  margin-bottom: -3vh;
+  margin-top: 1vh;
+  border-radius: 13px;
+}
+
+.wrapper {
+  position: relative;
+  top: -3vh;
+}
+.wrapper .circle {
+  color: black;
+  position: relative;
+  top: 47px;
+  left: 14px;
+}
+.wrapper .square {
+  color: black;
+  position: relative;
+  top: 47px;
+  left: 14px;
+}
+.sec_2 .para_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: -29px;
+}
+.line {
+  height: 47px;
+  width: 2px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 1;
+  bottom: -23px;
+  left: 51px;
+  margin: -28px;
+}
+
+.see .btn_final {
+  position: relative;
+  top: 3vh;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 13px;
+  font-weight: 600;
+  padding: 14px 25px;
+  cursor: pointer;
+}
+  .second{
+
+    width: 84vw;
+    height: 89vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    line-height:1.4;
+    margin-bottom: 22vh;
+    position: relative;
+    right: 1vw;
+   
+}
+.second .img_2 img{
+  width: 41vw;
+  position: relative;
+    right: 5vw;
+}
+.para_2{
+ font-size: 47px;
+ font-weight: 600;
+ width: 31vw;
+}
+
+ .second .wrapper_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 3vw;
+
+
+}
+.make{
+  width: 32vw;
+  font-size: 15px;
+  margin-top: 6vh;
+  position: relative;
+  left: 1vw;
+} 
+.button_2 button{
+  background-color: black;
+  color: white;
+  border: solid black;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 18px;
+  border-radius: 7px;
+  
+}
+.wrapper_3{
+  display: flex;
+  gap: 2vw;
+  margin-top: 6vh;
+  position: relative;
+  left: 1vw;
+}
+ .already>button{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-width: 1px;
+  border-color: #a0a0a088;
+  font-size: 16px;
+  width: 20vw;
+  position: relative;
+  top: 10px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-weight: 400 ;
+} 
+
+
+
+
+.third{
+  
+    display: flex;
+    width: 82vw;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 22vh;
+    gap: 10vw;
+    
+    
+
+}
+.para_3{
+  font-size: 47px;
+  font-weight: 600;
+  width: 32vw;
+  color: #2e2d2ded;
+ }
+ .uber{
+  width: 34vw;
+  font-size: 15px;
+  margin-top: 6vh;
+  position: relative;
+  left: 1vw;
+} 
+.wrapper_4{
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+    right: 17px;
+  
+}
+.wrapper_5{
+  display: flex;
+  gap: 2vw;
+  margin-top: 6vh;
+  position: relative;
+  right: 3vw;
+
+}
+.check button{
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-width: 1px;
+  border-color: #a0a0a088;
+  font-size: 16px;
+  width: 14vw;
+  
+  top: 10px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-weight: 400 ;
+  position: relative;
+  right: 8px;
+}
+.wrapper_3 .button_3{
+  position: relative;
+  right: 11vw;
+}
+.para_4{
+  font-size: 31px;
+  font-weight: 700;
+  width: 33vw;
+  
+  position: relative;
+  left: 2vw;
+}
+.make_1{
+  font-size: 15px;
+  width: 33vw;
+  position: relative;
+  left: 2vw;
+  
+}
+.img_3{
+  position: relative;
+}
+.end{
+  height:63vh;
+  width: 100%;
+  background-color: rgba(223, 223, 223, 0.295);
+}
+.left{
+ width: 50%;
+ height:auto;
+ background-color: white;
+ margin-right: 2vw;
+}
+.right
+  {
+    width: 50%;
+    height:auto;
+    background-color: white;
+   }
+   .wrap{
+    display:flex;
+    margin: auto;
+    width: 85%;
+   }
+   .left>img{
+    padding: 22px;
+   }
+   .right>img{
+    padding: 22px;
+   }
+  .uber{
+    font-size: 24px;
+    font-weight: 500;
+    width: 32vw;
+    margin-top:6vh;
+    display: flex;
+    align-items: center
+   }
+  .scan{
+font-size: 15px;
+position:relative;
+right: 10vw;
+
+  }
+  .left{
+    display: flex;
+    
+  }
+  .right{
+    display: flex;
+  }
+  .wr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  }
+  
+
+  .arrow>svg{
+    color: red;
+  }
+  .its>p{
+    padding: 52px 18px 44px 75px;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+
+
+
